@@ -41,7 +41,7 @@ Dados sísmicos / metadados
 | `06_Inversao_Grond/` | inversão de formas de onda e parâmetros de fonte com Grond |
 | `07_Agrupamentos_DBSCAN/` | agrupamento espacial e análise de clusters sísmicos |
 | `08_Analise_Visualizacao/` | mapas, gráficos, estatísticas e interpretação final |
-| `Extra/` | resultados seleccionados de cada etapa do workflow |
+| `Resultados/` | resultados científicos completos e material suplementar digital citado na monografia |
 | `docs/` | metodologia, dados, reprodutibilidade e notas técnicas |
 
 ## Dados
@@ -52,21 +52,28 @@ O repositório mantém principalmente:
 
 - scripts e notebooks;
 - configurações e parâmetros;
-- metadados e pequenos catálogos;
-- resultados finais seleccionados;
+- metadados;
+- catálogos derivados;
+- resultados finais;
 - figuras, mapas e tabelas;
 - documentação necessária para reproduzir o workflow.
 
-## Resultados
+## Resultados e material suplementar digital
 
-A pasta `Extra/` reúne os produtos derivados considerados relevantes para auditoria científica e para a monografia:
+A pasta `Resultados/` reúne os produtos científicos gerados neste trabalho e que podem ser **citados directamente na monografia**, sobretudo quando a sua extensão inviabiliza a inclusão integral no documento em páginas A4.
 
-- picks do EQTransformer;
-- catálogos e assignments do PyOcto;
-- resultados das iterações NLL-SSST/Coherence;
+Exemplos:
+
+- catálogo completo de picks do EQTransformer;
+- catálogo completo de eventos associados pelo PyOcto;
+- assignments evento–pick;
+- catálogos e resultados das iterações NLL-SSST/Coherence;
 - soluções de inversão Grond;
-- clusters DBSCAN;
-- mapas, tabelas, estatísticas e figuras finais.
+- catálogo com agrupamentos DBSCAN;
+- tabelas extensas;
+- mapas, figuras e estatísticas finais.
+
+Desta forma, o texto principal da monografia pode apresentar apenas sínteses, tabelas resumidas e figuras essenciais, remetendo o leitor para este repositório quando for necessário consultar os resultados completos.
 
 ## Reprodutibilidade
 
