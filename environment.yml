@@ -1,0 +1,23 @@
+name: monografia-sismotectonica-ears
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - obspy
+  - geopandas
+  - cartopy
+  - pyyaml
+  - jupyter
+  - pip
+  - pip:
+      - seisbench
+      - pyocto
+      - pyrocko
+
+# NonLinLoc/NLL-SSST-Coherence e Grond podem requerer instalação
+# adicional conforme a plataforma. Consulte docs/reprodutibilidade.md.
