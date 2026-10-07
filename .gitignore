@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+cache/
+tmp/
+
+# Dados sísmicos brutos / pesados
+*.mseed
+*.miniseed
+*.sac
+*.seed
+*.ms
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pickle
+*.pkl
+
+# Modelos / checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Resultados muito pesados
+outputs_raw/
+waveforms/
+downloads/
+raw_data/
+processed_data/
+
+# Pyrocko / Grond caches
+.grond/
+*.pf
+
+# Arquivos
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# QGIS temporário
+*.qgz~
+*.qgs~
